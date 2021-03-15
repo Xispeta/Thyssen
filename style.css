@@ -150,7 +150,7 @@ div.text-exp-temp{
     /*margin-bottom: 10px;*/
     /*letter-spacing:inherit;*/
     left: 18%;
-    box-shadow: 5px 5px 5px rgba(57, 56, 85, 0.7);
+    /*box-shadow: 5px 5px 5px rgba(57, 56, 85, 0.7);*/
     /*text-shadow: magenta;*/
     
 }
@@ -218,23 +218,89 @@ div.text-exp-fecha{
    align-items: flex-start;
    margin-top: 20px;
    margin-right: 20px;   
-   box-shadow: 3px 5px 5px rgba(57, 56, 85, 0.7);   
-   
+   height: 350px;   
+   box-shadow: 3px 5px 5px rgba(57, 56, 85, 0.7);
 }
+
 .link-espejo-psique{
-    /*position: absolute;*/
+    position: relative;
+    display: block;   
     justify-content:right;
-    /*vertical-align: text-top;*/
-    /*position: absolute;*/
-   /* width: 100%;
-    height: 100%;*/
-}
-.texto{
-    position:absolute;
-    text-align: start;
-    margin-top: -130px;
+    height: 230px;
     
 }
+
+
+.tex-img-espejo-psique,.tex-img-retrato-millicen,.tex-img-noche-luminosa{
+    /*background-color: white;    */
+    /*color:#4d4e3f;*/
+    position:relative;
+    text-align:left;
+    line-height: 18px;
+    margin-top: 10px;    
+    margin-left:10px;  
+    width: 290px;   
+    font-size: 18px;;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing:0.5px;   
+    
+}
+.text2-img-espejo-psique-title{
+    position:relative;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 290px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+.text2-img-noche-luminosa-title{
+    position:relative;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 290px;
+    margin-top: 7px;
+    letter-spacing: 1.5px;
+}
+.text3-img-espejo-psique-title,.text-img-retrato-millicen-title{
+    position:relative;
+    font-size: 16px;
+    line-height: 12px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 290px;
+    margin-top: 10px;
+
+}
+.text3-img-noche-luminosa-title{
+    position:relative;
+    font-size: 15px;
+    line-height: 12px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 290px;
+    margin-top: 7px;
+}
+
+.link2-espejo-psique,.link2-noche-luminosa{
+    color:#3a3b33;
+    position: relative;
+    display: block; 
+}
+.link-retrato-millicen,.link-noche-luminosa{
+    position: relative;
+    display: block;   
+    justify-content:right;
+    height: 230px;
+
+}
+/*.text-img-espejo-psique-title{
+    position: relative;
+   
+
+}*/
 
 /*.link-espejo-psique{
    top:200px;
@@ -248,6 +314,10 @@ div.text-exp-fecha{
 }
 
 .img-retrato-millicen{
+    position:relative;
+    align-items: flex-start;  
+    margin-right:20px;
+    height: 350px;
     margin-right: 20px;
     box-shadow: 3px 5px 5px rgba(57, 56, 85, 0.7);
 }
@@ -255,8 +325,12 @@ div.text-exp-fecha{
     box-shadow: 5px 5px 5px rgba(36, 32, 126, 0.7)
 }
 .img-noche-luminosa{
-    margin-top: 20px;
-    box-shadow: 3px 5px 5px rgba(57, 56, 85, 0.7)
+position:relative;
+align-items: flex-start;
+margin-top: 20px;
+margin-right: 20px;   
+height: 350px;   
+box-shadow: 3px 5px 5px rgba(57, 56, 85, 0.7);
 }
 .img-noche-luminosa:hover{
     box-shadow: 5px 5px 5px rgba(36, 32, 126, 0.7)
