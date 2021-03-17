@@ -175,56 +175,40 @@ div.text-exp-fecha {
   height: 230px;
 }
 
-.tex-img-espejo-psique,
-.tex-img-retrato-millicen,
-.tex-img-noche-luminosa {
+.text-img-espejo-psique,
+.text-img-retrato-millicen,
+.text-img-noche-luminosa {
   position: relative;
   text-align: left;
   line-height: 18px;
   margin-top: 10px;
-  margin-left: 10px;
-  width: 290px;
+  margin-left: 10px;  
+  width: 280px;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   letter-spacing: 0.5px;
 }
-.text2-img-espejo-psique-title {
-  position: relative;
-  font-size: 14px;
-  line-height: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 290px;
-  margin-top: 10px;
-  letter-spacing: 1.5px;
-}
+.text2-img-espejo-psique-title,
+.text2-img-espejo-psique-title ,
 .text2-img-noche-luminosa-title {
   position: relative;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 290px;
-  margin-top: 7px;
-  letter-spacing: 1.5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  margin-top: 9px;
+  
 }
+
 .text3-img-espejo-psique-title,
-.text-img-retrato-millicen-title {
-  position: relative;
-  font-size: 16px;
-  line-height: 12px;
-  font-weight: 300;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 290px;
-  margin-top: 10px;
-}
+.text3-img-espejo-psique-title,
 .text3-img-noche-luminosa-title {
   position: relative;
-  font-size: 15px;
-  line-height: 12px;
+  font-size: 13px;
+  line-height: 14px;
   font-weight: 300;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 290px;
-  margin-top: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  margin-top: 9px;  
 }
 
 .link2-espejo-psique,
