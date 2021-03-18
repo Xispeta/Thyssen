@@ -84,7 +84,7 @@ body {
 }
 div.casa-dangast-casa-blanca {
   margin-left: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   height: 20rem;
   width: 100%;
   padding-left: 0rem;
@@ -149,15 +149,87 @@ div.text-exp-fecha {
   width: 30%;
   left: 18%;
 }
-
 .first-main {
   position: relative;
-  height: 374px;
+  display: flex;
+  justify-content: center;
+  height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   vertical-align: text-top;
+  margin-bottom: 60px;
+}
+.img-thyssen {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 940px;
+  height: 300px;
+}
+
+.link-img-thyssen {
+  position: absolute;
+  height: 300px;
+  /*display: block;**/
+  /*justify-content: right;*/
+}
+.text-img-thyssen {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 18px;
+  width: 320px;
+  height: 170px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background-color: rgb(236, 231, 231);
+  margin-bottom: 20px;
+  margin-right: 20px;
+  
+}
+.text-img-thyssen-title {
+  position: relative;
+  margin-top:20px;
+  width: 180px;
+  height: 20px;
+}
+.text2-img-thyssen-title {
+  position: relative;
+  margin-top:20px;
+  width: 180px;
+  height: 20px;
+}
+.text3-img-thyssen-title {
+  position: relative;
+  margin-top:20px;
+  width: 180px;
+  height: 20px;
+}
+.button-img-thyssen-title {
+  position: relative;
+  margin-top:20px;
+  width: 180px;
+  height: 20px;
+}
+.img-thyssen:hover {
+  box-shadow: 5px 5px 5px rgba(57, 56, 85, 0.7);
+}
+.second-main {
+  position: relative;
+  height: 374px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /*align-items: flex-start;*/
+  vertical-align: text-top;
+  margin-bottom: 60px;
 }
 .img-espejo-psique {
   position: relative;
@@ -182,22 +254,22 @@ div.text-exp-fecha {
   text-align: left;
   line-height: 18px;
   margin-top: 10px;
-  margin-left: 10px;  
+  margin-left: 10px;
   width: 280px;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   letter-spacing: 0.5px;
 }
+/**OJO Clases sin implementar--text-img-espejo-psique-title **/
 .text2-img-espejo-psique-title,
-.text2-img-espejo-psique-title ,
+.text2-img-espejo-psique-title,
 .text2-img-noche-luminosa-title {
   position: relative;
   font-size: 12px;
   line-height: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 9px;
-  
 }
 
 .text3-img-espejo-psique-title,
@@ -207,8 +279,8 @@ div.text-exp-fecha {
   font-size: 13px;
   line-height: 14px;
   font-weight: 300;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  margin-top: 9px;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 9px;
 }
 
 .link2-espejo-psique,
@@ -244,7 +316,7 @@ div.text-exp-fecha {
   position: relative;
   align-items: flex-start;
   margin-top: 20px;
-  margin-right: 20px;
+  /**margin-right: 20px;**/
   height: 350px;
   box-shadow: 3px 5px 5px rgba(57, 56, 85, 0.7);
 }
